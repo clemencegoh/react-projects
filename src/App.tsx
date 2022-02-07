@@ -16,11 +16,11 @@ function Home() {
     <div>
       <h1>Home</h1>
       <nav>
-        <Link to={paths.home}>Home</Link>
+        <Link to={baseUrl}>Home</Link>
         <br />
-        <Link to={paths.tictactoe}>Tic tac toe</Link>
+        <Link to="games/tictactoe">Tic tac toe</Link>
         <br />
-        <Link to={paths.wordle}>Wordle</Link>
+        <Link to="games/wordle">Wordle</Link>
       </nav>
     </div>
   );

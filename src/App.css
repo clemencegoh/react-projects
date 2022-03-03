@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+/* Home wrapper component - BEM */
+.home-wrapper {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
